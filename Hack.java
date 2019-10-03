@@ -3,8 +3,13 @@ Public Class Hack{
         int f = test;
         for(i = 0; i < 5; i++){
             // Print value of f by adding value of i on each iteration
-            system.ot.print("f+i");
+            System.out.print(f+i);
         }
+    }
+    int main(){
+        System.out.println("Enter the number");
+        int n = sc.nextInt();
+        testFun(n);
     }
 }
 
